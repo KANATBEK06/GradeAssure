@@ -1,0 +1,1533 @@
+.tableContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+/* thead AdminUsers */
+.theadContainer{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.31px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  padding: 15px 0 0 0;
+  color: rgba(0, 0, 0, 1);
+}
+.AdminUsersCheckbox {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+}
+.theadCheckbox {
+  width: 30px;
+  height: 30px;
+}
+.AdminUsersId{
+  width: 50px;
+  display:flex;
+  align-items: center;
+  text-align: start;
+}
+.ArrowIcon {
+  margin: 5px 0 0 0;
+  width: 30px;
+  height: 30px;
+}
+.AdminUsersFullName{
+  width: 430px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.displayNone{
+  display: none;
+}
+.AdminUsersEmail{
+  width: 550px;
+  display: flex;
+  align-items: center;
+}
+/* thead Admin Users */
+/* tbody Admin Users  */
+.AdminUsersDataContainer{
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36.31px;
+  color: rgba(0, 0, 0, 1);
+  padding: 10px 0 0 0;
+}
+.AdminUsersDataId{
+  width: 50px;
+  text-align: start;
+  /* padding: 0 0 0 10px; */
+}
+.AdminUsersDataName{
+  width: 430px;
+  text-align: start;
+}
+.AdminUsersDataDays{
+  display: none;
+}
+.AdminUsersDataEmail{
+  width: 450px;
+  text-align: start;
+}
+.AdminUsersDataAction{
+  width: 30px;
+}
+/* tbody Admin Users  */
+
+
+/* thead Admin Request */
+.AdminRequestId{
+  width: 200px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.AdminRequestDay {
+  width: 280px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.AdminRequestEmail{
+  width: 550px;
+  display: flex;
+  align-items: center;
+}
+/* thead Admin Request */
+
+/* tbody Admin Request */
+.AdminRequestDataId{
+  width: 200px;
+}
+.AdminRequestDataName{
+  display: none;
+}
+.AdminRequestDataDays{
+  width: 280px;
+  text-align: start;
+}
+.AdminRequestDataEmail{
+  width: 450px;
+}
+/* tbody Admin Request */
+
+
+
+
+
+/* thead ShoolAdmin Reports */
+.SchoolAdminReportsId{
+  width: 60px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 20px;
+}
+.SchoolAdminReportsGroupName{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+.SchoolAdminReportsEmail{
+  width: 450px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+.SchoolAdminReportsDate{
+  width: 260px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+/* thead ShoolAdmin Reports */
+
+/* tbody ShoolAdmin Reports */
+.SchoolAdminReportsDataId{
+  width: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 20px;
+}
+.SchoolAdminReportsDataGroupName{
+  width: 400px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.SchoolAdminReportsDataEmail{
+  width: 450px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.SchoolAdminReportsDataDate{
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+/* tbody ShoolAdmin Reports */
+
+/* thead School FindAll */
+.SchoolFindAllTheadContainer{
+    height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.31px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  padding: 15px 0 0 0;
+  color: rgba(0, 0, 0, 1);
+}
+.SchoolFindAllId{
+  width: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 10px;
+}
+.SchoolFindAllFullName{
+  width: 390px;
+  display: flex;
+  align-items: center;
+}
+.SchoolFindAllDate{
+  width: 270px;
+  display: flex;
+  align-items: center;
+}
+.SchoolFindAllResult{
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+.SchoolFindAllPassed{
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+/* thead School FindAll */
+
+/* tbody School FindAll */
+.SchoolFindAllDataContainer{
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36.31px;
+  color: rgba(0, 0, 0, 1);
+  padding: 10px 0 0 0;
+}
+.SchoolFindAllDataId{
+  width: 60px;
+  text-align: start;
+  padding: 0 0 0 10px;
+  display: flex;
+  align-items: center;
+}
+.SchoolFindAllDataName{
+  width: 400px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.SchoolFindAllDataDate{
+  width: 273px;
+  text-align: start;
+}
+.SchoolFindAllDataResult{
+  width: 200px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.checkButton{
+  width: 100px;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+}
+.SchoolFindAllDataPassedYeas{
+  width: 200px;
+  color: rgba(0, 255, 56, 1);
+}
+.SchoolFindAllDataPassedNo{
+  width: 200px;
+  color: rgba(255, 0, 0, 1);
+}
+.SchoolFindAllDataPassedUndefined{
+  width: 200px;
+  color: rgba(0, 0, 0, 1);
+}
+/* tbody School FindAll */
+
+/* thead School RequestTeacher */
+
+.SchoolRequestTeacherTheadId{
+  width: 65px;
+  display: flex;
+  align-items: center;
+}
+.SchoolRequestTeacherTheadAction{
+  width: 170px;
+  display: flex;
+  align-items: center;
+}
+.SchoolRequestTeacherTheadEmail{
+  width: 580px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+.SchoolRequestTeacherDataContainer{
+    height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36.31px;
+  color: rgba(0, 0, 0, 1);
+  padding: 10px 0 0 0;
+}
+.SchoolRequestTeacherDataId{
+  width: 65px;
+  display: flex;
+  align-items: center;
+}
+.SchoolRequestTeacherDataEmail{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  word-break: break-word;
+}
+.SchoolRequestDataAction{
+  display: flex;
+  align-items: center;
+}
+/* tbody School RequestTeacher */
+
+
+/* thead TeacherNoneTestCheck */
+.TeacherNoneTestCheckId{
+  width: 65px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+.TeacherNoneTestCheckName{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+.TeacherNoneTestCheckDataCteated{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+/* thead TeacherNoneTestCheck */
+/* tbody TeacherNoneTestCheck */
+.TeacherNoneTestCheckDataContainer{
+      height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36.31px;
+  color: rgba(0, 0, 0, 1);
+  padding: 10px 0 0 0;
+}
+.TeacherNoneTestCheckDataId{
+  width: 65px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.TeacherNoneTestCheckDataName{
+  width: 400px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.TeacherNoneTestCheckDataDataCreated{
+  width: 500px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+/* tbody TeacherNoneTestCheck */
+
+/* thead TeacherMyTest */
+.TeacherMyTestId{
+  width: 70px;
+  padding: 0 0 0 10px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+.TeacherMyTestName{
+  width: 450px;
+  text-align: start;
+  display:flex;
+  align-items: center;
+}
+.TeacherMyTestDataCreated{
+  width: 510px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+/* thead TeacherMyTest */
+/* tbody TeacherMyTest */
+.TeacherMyTestDataId{
+  width: 70px;
+  padding: 0 0 0 10px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+.TeacherMyTestDataName{
+  width: 450px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.TeacherMyTestDataDataCreated{
+  width: 350px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+/* tbody TeacherMyTest */
+
+/* thead TeacherTestCheck */
+.TeacherTestCheckId{
+  width: 70px;
+  text-align: start;
+  margin: 0 0 0 100px;
+  padding: 0 0 0 25px;
+  display: flex;
+  align-items: center;
+}
+.TeacherTestCheckName{
+  width: 500px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.TeacherTestCheckDataCreated{
+  width: 250px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+.TeacherTestCheckPassed{
+  width: 150px;
+  text-align:start;
+  display: flex;
+  align-items: center;
+}
+/* thead TeacherTestCheck */
+/* tbody TeacherTestCheck */
+.TeacherTestCheckDataId{
+  width: 70px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.TeacherTestCheckDataName{
+  width: 520px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.TeacherTestCheckDataDataCreated{
+  width: 270px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.TeacherTestCheckDataPassed{
+  width: 150px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.TeacherTestCheckBlock{
+  width: 70px;
+}
+/* tbody TeacherTestCheck */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1281px) {
+/* thead AdminUsers */
+.AdminUsersId{
+  width: 90px;
+}
+.AdminUsersEmail{
+  width: 500px;
+}
+/* thead Admin Users */
+/* tbody Admin Users  */
+.AdminUsersDataId{
+  width: 90px;
+  padding: 0 0 0 10px;
+}
+.AdminUsersDataEmail{
+  width: 450px;
+}
+/* tbody Admin Users  */
+
+
+/* thead Admin Request */
+
+.AdminRequestId{
+  width: 200px;
+  text-align: start;
+}
+.AdminRequestDay {
+  width: 280px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.AdminRequestEmail{
+  width: 515px;
+}
+/* thead Admin Request */
+
+/* tbody Admin Request */
+.AdminRequestDataId{
+  width: 190px;
+}
+
+.AdminRequestDataDays{
+  width: 280px;
+  text-align: start;
+}
+.AdminRequestDataEmail{
+width: 450px;
+}
+/* tbody Admin Request */
+/* thead ShoolAdmin Reports */
+
+.SchoolAdminReportsGroupName{
+  width: 320px;
+  padding: 0 0 0 20px;
+}
+.SchoolAdminReportsEmail{
+  width: 470px;
+}
+.SchoolAdminReportsDate{
+  width: 260px;
+}
+/* thead ShoolAdmin Reports */
+
+/* tbody ShoolAdmin Reports */
+
+.SchoolAdminReportsDataId{
+  width: 60px;
+  padding: 0 0 0 20px;
+}
+.SchoolAdminReportsDataGroupName{
+  width: 320px;
+  padding: 0 0 0 20px;
+}
+.SchoolAdminReportsDataEmail{
+  width: 470px;
+}
+.SchoolAdminReportsDataDate{
+  width: 230px;
+}
+/* tbody ShoolAdmin Reports */
+/* thead School FindAll */
+.SchoolFindAllDate{
+  width: 250px;
+}
+.SchoolFindAllResult{
+  width: 170px;
+}
+.SchoolFindAllPassed{
+  width: 150px;
+}
+/* thead School FindAll */
+
+/* tbody School FindAll */
+.SchoolFindAllDataDate{
+  width: 253px;
+}
+.SchoolFindAllDataResult{
+  width: 170px;
+}
+.SchoolFindAllDataPassedYeas{
+  width: 150px;
+}
+.SchoolFindAllDataPassedNo{
+  width: 150px;
+}
+.SchoolFindAllDataPassedUndefined{
+  width: 150px;
+}
+/* tbody School FindAll */
+/* thead School RequestTeacher */
+.SchoolRequestTeacherTheadEmail{
+  width: 550px;
+}
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+/* tbody School RequestTeacher */
+/* thead TeacherMyTest */
+.TeacherMyTestDataCreated{
+  width: 460px;
+}
+/* thead TeacherMyTest */
+/* tbody TeacherMyTest */
+/* tbody TeacherMyTest */
+
+/* thead TeacherTestCheck */
+.TeacherTestCheckId{
+  width: 70px;
+  margin: 0 0 0 60px;
+}
+/* thead TeacherTestCheck */
+/* tbody TeacherTestCheck */
+/* tbody TeacherTestCheck */
+
+}
+
+@media (max-width: 1025px) {
+  /* thead AdminUsers */
+.AdminUsersId{
+  width: 90px;
+}
+.AdminUsersFullName{
+  width: 680px;
+}
+.AdminUsersEmail{
+  display: none;
+}
+/* thead Admin Users */
+/* tbody Admin Users  */
+.AdminUsersDataId{
+  width: 90px;
+  padding: 0 0 0 10px;
+}
+.AdminUsersDataName{
+  width: 580px;
+}
+.AdminUsersDataEmail{
+  display: none;
+}
+.AdminUsersDataAction{
+  width: 60px;
+}
+/* tbody Admin Users  */
+
+
+/* thead Admin Request */
+.AdminRequestId{
+  width: 80px;
+}
+.AdminRequestDay{
+  width: 180px;
+}
+.AdminRequestEmail{
+  width: 535px;
+}
+/* thead Admin Request */
+
+/* tbody Admin Request */
+.AdminRequestDataId{
+  width: 60px;
+  padding: 0 10px 0 0;
+}
+.AdminRequestDataDays{
+  width: 190px;
+  padding-left: 15px;
+}
+.AdminUsersDataAction{
+  width: 60px;
+}
+/* tbody Admin Request */
+/* thead ShoolAdmin Reports */
+
+.SchoolAdminReportsEmail{
+  display: none;
+}
+.SchoolAdminReportsDate{
+  width: 350px;
+}
+/* thead ShoolAdmin Reports */
+
+/* tbody ShoolAdmin Reports */
+
+.SchoolAdminReportsDataEmail{
+  display: none;
+}
+.SchoolAdminReportsDataDate{
+  width: 230px;
+}
+/* tbody ShoolAdmin Reports */
+/* thead School FindAll */
+.SchoolFindAllResult{
+  width: 140px;
+}
+.SchoolFindAllPassed{
+  display: none;
+}
+/* thead School FindAll */
+
+/* tbody School FindAll */
+.SchoolFindAllDataResult{
+  width: 140px;
+}
+.SchoolFindAllDataPassedYeas{
+  display: none;
+}
+.SchoolFindAllDataPassedNo{
+  display: none;
+}
+.SchoolFindAllDataPassedUndefined{
+  display: none;
+}
+/* tbody School FindAll */
+/* thead School RequestTeacher */
+.SchoolRequestTeacherTheadAction{
+display: none;
+}
+.SchoolRequestTeacherTheadEmail{
+  width: 610px;
+}
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+.SchoolRequestTeacherDataAction{
+  display: none;
+}
+.SchoolRequestTeacherDataEmail{
+  width: 500px;
+}
+/* tbody School RequestTeacher */
+
+/* thead TeacherNoneTestCheck */
+.TeacherNoneTestCheckId{
+  width: 65px;
+}
+.TeacherNoneTestCheckName{
+  width: 400px;
+  padding: 0 0 0 10px;
+}
+.TeacherNoneTestCheckDataCteated{
+  width: 400px;
+}
+/* thead TeacherNoneTestCheck */
+/* tbody TeacherNoneTestCheck */
+.TeacherNoneTestCheckDataId{
+  width: 65px;
+}
+.TeacherNoneTestCheckDataName{
+  width: 400px;
+  padding: 0 0 0 10px;
+}
+.TeacherNoneTestCheckDataDataCreated{
+  width: 400px;
+}
+/* tbody TeacherNoneTestCheck */
+/* thead TeacherMyTest */
+.TeacherMyTestName{
+  width: 350px;
+}
+.TeacherMyTestDataCreated{
+  width: 350px;
+}
+/* thead TeacherMyTest */
+/* tbody TeacherMyTest */
+.TeacherMyTestDataName{
+  width: 350px;
+}
+.TeacherMyTestDataDataCreated{
+  width: 250px;
+}
+/* tbody TeacherMyTest */
+/* thead TeacherTestCheck */
+.TeacherTestCheckId{
+  width: 70px;
+  margin: 0;
+}
+.TeacherTestCheckName{
+  width: 380px;
+}
+.TeacherTestCheckDataCreated{
+  width: 230px;
+}
+.TeacherTestCheckPassed{
+  width: 150px;
+}
+/* thead TeacherTestCheck */
+/* tbody TeacherTestCheck */
+.TeacherTestCheckDataId{
+  width: 70px;
+  padding: 0 0 0 30px;
+}
+.TeacherTestCheckDataName{
+  width: 380px;
+}
+.TeacherTestCheckDataDataCreated{
+  width: 230px;
+}
+.TeacherTestCheckDataPassed{
+  width: 150px;
+}
+.TeacherTestCheckBlock{
+  display: none;
+}
+/* tbody TeacherTestCheck */
+}
+
+@media (max-width: 913px) {
+  /* thead AdminUsers */
+.AdminUsersId{
+  width: 90px;
+}
+.AdminUsersFullName{
+  width: 600px;
+}
+/* thead Admin Users */
+/* tbody Admin Users  */
+.AdminUsersDataName{
+  width: 510px;
+}
+/* tbody Admin Users  */
+/* thead ShoolAdmin Reports */
+.SchoolAdminReportsDate{
+  width: 315px;
+}
+/* thead ShoolAdmin Reports */
+/* thead School FindAll */
+.SchoolFindAllTheadContainer{
+  font-size: 25px;
+}
+.SchoolFindAllFullName{
+  padding: 0 0 0 15px;
+}
+.SchoolFindAllDate{
+  width: 230px;
+}
+.SchoolFindAllResult{
+  width: 140px;
+}
+/* thead School FindAll */
+
+/* tbody School FindAll */
+.SchoolFindAllDataContainer{
+  font-size: 25px;
+}
+.SchoolFindAllDataName{
+  padding: 0 0 0 15px;
+}
+.SchoolFindAllDataDate{
+  width: 230px;
+}
+.SchoolFindAllDataResult{
+  width: 140px;
+}
+/* tbody School FindAll */
+/* thead School RequestTeacher */
+.SchoolRequestTeacherTheadEmail{
+  width: 580px;
+}
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+/* tbody School RequestTeacher */
+/* thead TeacherMyTest */
+.TeacherMyTestName{
+  width: 340px;
+}
+.TeacherMyTestDataCreated{
+  width: 320px;
+}
+/* thead TeacherMyTest */
+/* tbody TeacherMyTest */
+.TeacherMyTestDataName{
+  width: 350px;
+}
+.TeacherMyTestDataDataCreated{
+  width: 250px;
+}
+/* tbody TeacherMyTest */
+/* thead TeacherTestCheck */
+.TeacherTestCheckId{
+  width: 70px;
+  margin: 0;
+}
+.TeacherTestCheckName{
+  width: 380px;
+}
+.TeacherTestCheckDataCreated{
+  width: 230px;
+}
+.TeacherTestCheckPassed{
+  display: none;
+}
+/* thead TeacherTestCheck */
+/* tbody TeacherTestCheck */
+.TeacherTestCheckDataId{
+  width: 70px;
+  padding: 0 0 0 30px;
+}
+.TeacherTestCheckDataName{
+  width: 380px;
+}
+.TeacherTestCheckDataDataCreated{
+  width: 230px;
+}
+.TeacherTestCheckDataPassed{
+  display: none;
+}
+/* tbody TeacherTestCheck */
+}
+
+@media (max-width: 854px) {
+  /* thead AdminUsers */
+.AdminUsersId{
+  width: 90px;
+}
+.AdminUsersFullName{
+  width: 570px;
+}
+/* thead Admin Users */
+/* tbody Admin Users  */
+.AdminUsersDataName{
+  width: 490px;
+}
+/* tbody Admin Users  */
+/* thead ShoolAdmin Reports */
+.SchoolAdminReportsDate{
+  width: 295px;
+}
+/* thead ShoolAdmin Reports */
+/* thead School FindAll */
+.SchoolFindAllTheadContainer{
+  font-size: 25px;
+}
+.SchoolFindAllFullName{
+  padding: 0 0 0 15px;
+}
+.SchoolFindAllDate{
+  display: none;
+}
+.SchoolFindAllResult{
+  width: 140px;
+}
+/* thead School FindAll */
+
+/* tbody School FindAll */
+.SchoolFindAllDataContainer{
+  font-size: 25px;
+}
+.SchoolFindAllDataName{
+  padding: 0 0 0 15px;
+}
+.SchoolFindAllDataDate{
+  display: none;
+}
+.SchoolFindAllDataResult{
+  width: 140px;
+}
+/* tbody School FindAll */
+/* thead School RequestTeacher */
+.SchoolRequestTeacherTheadEmail{
+  width: 560px;
+}
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+/* tbody School RequestTeacher */
+
+/* thead TeacherNoneTestCheck */
+.TeacherNoneTestCheckDataCteated{
+  width: 300px;
+}
+/* thead TeacherNoneTestCheck */
+/* tbody TeacherNoneTestCheck */
+.TeacherNoneTestCheckDataDataCreated{
+  width: 300px;
+}
+/* tbody TeacherNoneTestCheck */
+/* thead TeacherMyTest */
+.TeacherMyTestName{
+  width: 350px;
+}
+.TeacherMyTestDataCreated{
+  width: 280px;
+}
+/* thead TeacherMyTest */
+/* tbody TeacherMyTest */
+.TeacherMyTestDataName{
+  width: 350px;
+}
+.TeacherMyTestDataDataCreated{
+  width: 230px;
+}
+/* tbody TeacherMyTest */
+}
+
+@media (max-width: 821px) {
+  /* thead AdminUsers */
+.AdminUsersId{
+  width: 90px;
+}
+.AdminUsersFullName{
+  width: 570px;
+}
+/* thead Admin Users */
+/* tbody Admin Users  */
+.AdminUsersDataName{
+  width: 510px;
+}
+/* tbody Admin Users  */
+
+
+/* thead Admin Request */
+.AdminRequestId{
+  width: 120px;
+}
+.AdminRequestDay{
+  width: 360px;
+}
+/* thead Admin Request */
+
+/* tbody Admin Request */
+.AdminRequestDataId{
+  width: 100px;
+}
+.AdminRequestDataDays{
+  width: 210px;
+}
+.AdminRequestDataEmail{
+  display: none;
+}
+/* tbody Admin Request */
+/* thead ShoolAdmin Reports */
+.SchoolAdminReportsDate{
+  width: 285px;
+}
+/* thead ShoolAdmin Reports */
+/* thead School RequestTeacher */
+.SchoolRequestTeacherTheadEmail{
+  width: 550px;
+}
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+/* tbody School RequestTeacher */
+}
+
+@media (max-width: 769px){
+/* tbody Admin Request */
+.AdminRequestDataDays{
+  width: 240px;
+}
+/* tbody Admin Request */
+/* thead ShoolAdmin Reports */
+.SchoolAdminReportsDate{
+  width: 273px;
+}
+/* thead ShoolAdmin Reports */
+/* thead School RequestTeacher */
+.SchoolRequestTeacherTheadEmail{
+  width: 530px;
+}
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+.SchoolRequestTeacherDataEmail{
+  width: 500px;
+}
+/* tbody School RequestTeacher */
+
+/* thead TeacherNoneTestCheck */
+.TeacherNoneTestCheckDataCteated{
+  display: none;
+}
+/* thead TeacherNoneTestCheck */
+/* tbody TeacherNoneTestCheck */
+.TeacherNoneTestCheckDataDataCreated{
+display: none;
+}
+/* tbody TeacherNoneTestCheck */
+/* thead TeacherMyTest */
+.TeacherMyTestName{
+  width: 500px;
+}
+.TeacherMyTestDataCreated{
+  display: none;
+}
+/* thead TeacherMyTest */
+/* tbody TeacherMyTest */
+.TeacherMyTestDataName{
+  width: 350px;
+}
+.TeacherMyTestDataDataCreated{
+  display: none;
+}
+/* tbody TeacherMyTest */
+/* thead TeacherTestCheck */
+.TeacherTestCheckName{
+  width: 320px;
+}
+/* thead TeacherTestCheck */
+/* tbody TeacherTestCheck */
+.TeacherTestCheckDataName{
+  width: 320px;
+}
+/* tbody TeacherTestCheck */
+}
+@media (max-width: 550px) {
+    /* thead AdminUsers */
+.theadCheckbox {
+  width: 25px;
+  height: 25px;
+}
+.ArrowIcon {
+  margin: 5px 0 0 -3px;
+  width: 25px;
+  height: 25px;
+}
+.AdminUsersId{
+  width: 90px;
+}
+.AdminUsersFullName{
+  width: 370px;
+}
+/* thead Admin Users */
+/* tbody Admin Users  */
+.AdminUsersDataContainer{
+  /* font-size: 20px; */
+  height: 80px;
+  align-items: center;
+}
+.AdminUsersDataName{
+  width: 330px;
+}
+.AdminUsersDataAction{
+  width: 40px;
+}
+/* tbody Admin Users  */
+
+
+/* thead Admin Request */
+.AdminRequestDay{
+  width: 250px;
+}
+/* thead Admin Request */
+
+/* tbody Admin Request */
+.AdminRequestDataDays{
+  width: 190px;
+}
+/* tbody Admin Request */
+/* thead ShoolAdmin Reports */
+.SchoolAdminReportsBodyContainer{
+  font-size: 23px;
+}
+.SchoolAdminReportsGroupName{
+  width: 385px;
+}
+.SchoolAdminReportsDate{
+  display: none;
+}
+/* thead ShoolAdmin Reports */
+/* tbody ShoolAdmin Reports */
+.SchoolAdminReportsDataDate{
+  display: none;
+}
+/* tbody ShoolAdmin Reports */
+/* tbody School FindAll */
+.SchoolFindAllDataContainer{
+  height: 80px;
+}
+/* tbody School FindAll */
+/* thead School RequestTeacher */
+.SchoolRequestTeacherTheadEmail{
+  width: 430px;
+}
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+.SchoolRequestTeacherDataContainer{
+  height: 80px;
+  font-size: 24px;
+}
+.SchoolRequestTeacherDataEmail{
+  width: 400px;
+}
+/* tbody School RequestTeacher */
+
+/* thead TeacherNoneTestCheck */
+.TeacherNoneTestCheckId{
+  width: 65px;
+}
+.TeacherNoneTestCheckName{
+  width: 300px;
+  padding: 0;
+}
+/* thead TeacherNoneTestCheck */
+/* tbody TeacherNoneTestCheck */
+.TeacherNoneTestCheckDataId{
+  width: 65px;
+}
+.TeacherNoneTestCheckDataName{
+  width: 300px;
+  padding: 0;
+}
+/* tbody TeacherNoneTestCheck */
+/* thead TeacherMyTest */
+.TeacherMyTestName{
+  width: 400px;
+}
+/* thead TeacherMyTest */
+/* tbody TeacherMyTest */
+.TeacherMyTestDataName{
+  width: 350px;
+  font-size: 24px;
+}
+/* tbody TeacherMyTest */
+/* thead TeacherTestCheck */
+.TeacherTestCheckName{
+  width: 320px;
+}
+.TeacherTestCheckDataCreated{
+  display: none;
+}
+/* thead TeacherTestCheck */
+/* tbody TeacherTestCheck */
+.TeacherTestCheckDataName{
+  width: 320px;
+}
+.TeacherTestCheckDataDataCreated{
+  display: none;
+}
+/* tbody TeacherTestCheck */
+}
+
+
+@media (max-width: 431px) {
+    /* thead AdminUsers */
+.theadContainer{
+  font-size: 20px;
+}
+.AdminUsersCheckbox{
+  display: none;
+}
+.AdminUsersId{
+  margin-left: 10px;
+}
+/* thead Admin Users */
+/* tbody Admin Users  */
+.AdminUsersDataContainer{
+  font-size: 25px;
+}
+
+.AdminUsersDataId{
+  margin-right: 5px;
+  padding-left: 10px;
+}
+/* tbody Admin Users  */
+
+
+/* thead Admin Request */
+.AdminRequestId{
+  padding: 0 0 0 20px;
+}
+/* thead Admin Request */
+
+/* tbody Admin Request */
+.AdminRequestDataId{
+  padding: 0 0 0 20px;
+}
+/* tbody Admin Request */
+/* thead School FindAll */
+.SchoolFindAllTheadContainer{
+  font-size: 20px;
+}
+.SchoolFindAllFullName{
+  padding: 0 0 0 5px;
+}
+.SchoolFindAllDate{
+  width: 230px;
+}
+.SchoolFindAllResult{
+  width: 140px;
+}
+/* thead School FindAll */
+
+/* tbody School FindAll */
+.SchoolFindAllDataContainer{
+  font-size: 23px;
+}
+.SchoolFindAllDataName{
+  width: 350px;
+}
+.SchoolFindAllDataResult{
+  width: 140px;
+}
+/* tbody School FindAll */
+/* thead School RequestTeacher */
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+.SchoolRequestTeacherDataEmail{
+  width: 330px;
+}
+/* tbody School RequestTeacher */
+/* thead TeacherNoneTestCheck */
+
+/* thead TeacherNoneTestCheck */
+/* tbody TeacherNoneTestCheck */
+.TeacherNoneTestCheckDataContainer{
+  font-size: 25px;
+}
+/* tbody TeacherNoneTestCheck */
+/* thead TeacherTestCheck */
+.TeacherTestCheckName{
+  width: 300px;
+}
+/* thead TeacherTestCheck */
+/* tbody TeacherTestCheck */
+.TeacherTestCheckDataName{
+  width: 300px;
+}
+/* tbody TeacherTestCheck */
+}
+
+@media (max-width: 415px) {
+/* tbody Admin Request */
+.AdminRequestDataDays{
+  padding: 0 0 0 5px;
+}
+/* tbody Admin Request */
+/* thead School RequestTeacher */
+.SchoolRequestTeacherTheadEmail{
+  width: 330px;
+}
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+.SchoolRequestTeacherDataEmail{
+  width: 330px;
+}
+/* tbody School RequestTeacher */
+}
+@media (max-width: 391px) {
+      /* thead AdminUsers */
+.theadContainer{
+  font-size: 20px;
+}
+.AdminUsersCheckbox{
+  display: none;
+}
+/* thead Admin Users */
+.AdminUsersDataContainer{
+  font-size: 25px;
+}
+/* tbody Admin Users  */
+.AdminUsersId{
+  padding-left: 5px;
+}
+
+.AdminUsersDataId{
+  padding-left: 5px;
+}
+/* tbody Admin Users  */
+/* thead School FindAll  */
+/* thead School FindAll */
+
+/* tbody School FindAll */
+.SchoolFindAllDataName{
+  padding: 0;
+  width: 290px;
+}
+.SchoolFindAllDataResult{
+  width: 120px;
+}
+/* tbody School FindAll */
+/* thead School RequestTeacher */
+.SchoolRequestTeacherTheadEmail{
+  width: 330px;
+}
+/* thead School RequestTeacher */
+
+/* tbody School RequestTeacher */
+.SchoolRequestTeacherDataContainer{
+  font-size: 20px;
+}
+.SchoolRequestTeacherDataEmail{
+  width: 330px;
+}
+/* tbody School RequestTeacher */
+/* thead TeacherTestCheck */
+.TeacherTestCheckId{
+  width: 40px;
+  padding: 0 0 0 10px;
+}
+.TeacherTestCheckName{
+  width: 270px;
+}
+/* thead TeacherTestCheck */
+/* tbody TeacherTestCheck */
+.TeacherTestCheckDataId{
+  width: 40px;
+  padding: 0 0 0 10px;
+}
+.TeacherTestCheckDataName{
+  width: 270px;
+}
+/* tbody TeacherTestCheck */
+}
+@media (max-width: 376px) {
+    /* thead AdminUsers */
+.AdminUsersFullName{
+  width: 300px;
+}
+/* thead Admin Users */
+/* tbody Admin Users  */
+.AdminUsersDataName{
+  width: 300px;
+}
+/* tbody Admin Users  */
+
+
+/* thead Admin Request */
+
+/* thead Admin Request */
+
+/* tbody Admin Request */
+.AdminRequestDataDays{
+  padding: 0 0 0 10px;
+}
+/* tbody Admin Request */
+/* thead School FindAll  */
+/* thead School FindAll */
+
+/* tbody School FindAll */
+.SchoolFindAllDataResult{
+  width: 120px;
+}
+/* tbody School FindAll */
+}
+
+@media (max-width: 361px) {
+    /* thead AdminUsers */
+    .AdminUsersId{
+      width: 50px;
+      padding: 0;
+      margin: 10px;
+    }
+.AdminUsersFullName{
+  width: 265px;
+}
+/* thead Admin Users */
+/* tbody Admin Users  */
+.AdminUsersDataId{
+  width: 50px;
+  padding: 0 0 0 10px;
+}
+.AdminUsersDataName{
+  width: 220px;
+  padding: 0 0 0 10px;
+}
+/* tbody Admin Users  */
+
+
+/* thead Admin Request */
+
+/* thead Admin Request */
+
+/* tbody Admin Request */
+
+/* tbody Admin Request */
+
+/* thead School FindAll  */
+.SchoolFindAllTheadContainer{
+  font-size: 18px;
+}
+.SchoolFindAllId{
+  padding: 0;
+}
+.SchoolFindAllFullName{
+  width: 290px;
+}
+.SchoolFindAllResult{
+  width: 120px;
+}
+/* thead School FindAll */
+
+/* tbody School FindAll */
+.SchoolFindAllDataContainer{
+  font-size: 20px;
+}
+/* .SchoolFindAllDataResult{
+  width: 140px;
+} */
+/* tbody School FindAll */
+}
