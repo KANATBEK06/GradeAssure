@@ -12,9 +12,15 @@
     font-family: Inter;
     font-size: 23px;
     font-weight: 900;
-    letter-spacing: 0em;   
+    letter-spacing: 0em;
+    @media (max-width: 1281px){
+        width: 400px;
+    };
+    @media (max-width: 821px) {
+        width: 300px;
+    };
     @media (max-width:550px) {
-        font-size: 16px;
+        font-size: 19px;
     }
 }
 .nav{
@@ -24,6 +30,9 @@
     justify-content: space-between;
     padding: 0px 150px 0px 30px;
     user-select: none;
+    @media (max-width: 913px) {
+        padding: 0 50px 0 20px;
+    }
     @media (max-width:550px) {
         padding: 0px 20px 0px 20px;
     }
@@ -48,7 +57,8 @@
    justify-content: space-between;
    width: 900px;
    @media (max-width:550px) {
-    width: max-content;
+    /* width: max-content; */
+    width: 200px;
     flex-direction: row-reverse;
     gap: 30px;
    }
@@ -77,12 +87,16 @@
    font-weight: 400;
    letter-spacing: 0em;
    margin-left: 132px;
+   @media (max-width: 913px) {
+    margin-left: 70px;
+   }
    @media (max-width:550px) {
     margin-left: 0;
     gap: 5px;
     font-size: 20px;
    }
 }
+
 .closeIcon{
    width: 30px;
    height: 30px;
@@ -101,8 +115,24 @@
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 0em;
+  @media (max-width: 1024px) {
+    padding: 0 0 0 20px;
+    width: 170px;
+    font-size: 25px;
+  }
+  @media (max-width: 831px) {
+    width: 150px;
+    padding: 0 0 0 10px;
+    font-size: 23px;
+  }
+  @media (max-width: 769px) {
+    display: none;
+  }
   @media (max-width:550px) {
     font-size: 20px;
+  }
+  @media (max-width: 431px) {
+    display: block;
   }
 }
 .maximumQuantity{
@@ -161,4 +191,56 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.Actions{
+    margin-right: -20px;
+}
+@media (max-width: 1281px) {
+    .Actions {
+      margin-right: -70px;
+    }
+}
+@media (max-width: 1025px) {
+    .Actions {
+      margin-right: -60px;
+    }
+    .nav{
+        padding-right: 100px;
+    }
+    .blockedText{
+        margin-left: 70px;
+    }
+}
+@media (max-width: 913px) {
+    .Actions {
+      margin-right: 40px;
+    }
+    .nav{
+        padding-right: 70px;
+    }
+    .blockedText{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 821px) {
+    .Actions {
+      margin-right: 30px;
+    }
+    .nav{
+        padding-right: 20px;
+    }
+    .blockedText{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 769px) {
+    .blockedText{
+        display: none;
+    }
+}
+@media (max-width: 431px) {
+.Actions{
+    margin-right: 20px;
+}
 }

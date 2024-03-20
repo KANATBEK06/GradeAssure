@@ -38,9 +38,16 @@ const Actions = ({
                 Unblock
               </p>
             ))}
-          <p onClick={onBlock} className={styles.action}>
-            Block
-          </p>
+          {page === 'blockedRequests' && (
+            <p onClick={onDelete} className={styles.action}>
+              Delete
+            </p>
+          )}
+          {page !== 'blockedRequests' && (
+            <p onClick={onBlock} className={styles.action}>
+              Block
+            </p>
+          )}
         </div>
       )}
       {showActions && variant === 'admin' && (

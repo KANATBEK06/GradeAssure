@@ -13,6 +13,7 @@ const Header = ({
   selected,
   selectedCount,
   prefix,
+  download,
   days,
   onDelete,
   onBlock,
@@ -89,6 +90,13 @@ const Header = ({
                   <Button variant='headerButton'>Send report</Button>
                 </div>
               )}
+            {download && (
+              <div className={styles.teacherButton}>
+                <a href='google.com' download>
+                  <Button variant='headerButton'>Download</Button>
+                </a>
+              </div>
+            )}
           </>
         )}
         {selected && (
@@ -110,14 +118,16 @@ const Header = ({
                 <Button variant='headerButton'>Choose</Button>
               </div>
             ) : (
-              <Actions
-                variant='header'
-                page={page}
-                onDelete={onDelete}
-                onBlock={onBlock}
-                onUnblock={onUnblock}
-                onRefuse={onRefuse}
-              />
+              <div className={styles.Actions}>
+                <Actions
+                  variant='header'
+                  page={page}
+                  onDelete={onDelete}
+                  onBlock={onBlock}
+                  onUnblock={onUnblock}
+                  onRefuse={onRefuse}
+                />
+              </div>
             )}
           </>
         )}
