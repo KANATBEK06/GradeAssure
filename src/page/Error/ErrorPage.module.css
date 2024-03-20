@@ -1,0 +1,65 @@
+.Container{
+  width: 100%;
+}
+.MainContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.h1{
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 168px;
+  color:rgba(112, 161, 255, 1);
+}
+.Title{
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(112, 161, 255, 1);
+}
+.text{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(72, 72, 72);
+  margin: 10px 0 50px 0;
+}
+.Button{
+  width: 300px;
+  height: 49px;
+  border-radius: 22px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 27.84px;
+  background-color: rgba(112, 161, 255, 1);
+  margin: 50px 0 0 0;
+}
+@media (max-width: 550px) {
+  .text{
+    width: 400px;
+    text-align: center;
+  }
+}
+@media (max-width: 431px) {
+  .h1{
+    font-size: 150px;
+  }
+  .Title{
+    font-size: 35px;
+  }
+  .text{
+    width: 355px;
+  }
+}
+@media (max-width: 361px) {
+  .text{
+    font-size: 18px;
+  }
+}
