@@ -1,0 +1,13 @@
+.MainContainer{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.listContainer{
+  width: 85%;
+}
+@media (max-width: 1281px) {
+  .listContainer{
+    width: 90%;
+  }
+}
