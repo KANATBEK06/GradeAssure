@@ -1,0 +1,1597 @@
+ *{
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+.divContainer {
+  display: flex;
+  flex-direction: column;
+   position: relative;
+  z-index: 2;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  width: 530px;
+height: 491px;
+top: 10px;
+}
+.cardContainer {
+ display: flex;
+height: 150px;
+width: 100%;
+}
+.valueCard{
+  width: 100%;
+  height: 100%;
+}
+.roundFirst {
+width: 244px;
+height: 200px;
+background: rgba(255, 128, 173, 1);
+  border-radius: 50%;
+  display: flex;
+  margin-left: -4vw;
+  margin-top: -5vw;
+  position: relative;
+  z-index: 1
+}
+.roundSecond{
+   width:181px;
+height: 151px;
+background: rgba(184, 128, 255, 1);
+  border-radius: 50%;
+  display: flex;
+margin-left: -4vw;
+  margin-top: -4.5vw;
+  position: relative;
+  z-index: 1;  
+}
+.roundThird{
+   width: 210px;
+height: 180px;
+background: rgba(128, 171, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  margin-right: -3.5vw;
+  margin-top: -2vw;
+  position: relative;
+  z-index: 1; 
+} 
+.signInCardContiner{
+  position: relative;
+  z-index: 2;
+  border-radius: 16px; 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+top: 10px;
+width: 530px;
+height: 576px;
+background-color: #fff;
+}
+.signInCard{
+  height: 270px;
+  width: 100%;
+}
+ .signInRoundFirst{
+  background: rgba(255, 128, 173, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  width: 240px;
+height: 209px;
+margin-top: -6vw;
+right: 13vw;
+}
+.signInCardValue{
+  width: 100%;
+  height: 350px;
+}
+.signInRoundSecond{
+background: rgba(184, 128, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  margin-right: 13vw;
+  margin-top: -16vw;
+  position: relative;
+  z-index: 1; 
+ width: 180px;
+height: 151px;
+  margin-top: -12.5vw;
+  margin-left: 6vw;
+}
+.signInCardRoundThird{
+background: rgba(128, 171, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1; 
+margin-left: 23vw;
+margin-top: -7vw;
+width: 222px;
+height: 182px;
+}  
+.codeCardContainer{
+  width: 530px;
+height: 559px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+display: flex;
+  flex-direction: column;
+   position: relative;
+  z-index: 2;
+  overflow: hidden;
+  background-color: #fff;
+}
+.codeRoundFirst{
+  background: rgba(255, 128, 173, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  width: 240px;
+height: 209px;
+margin-top: -6vw;
+right: 13.5vw;
+}
+.codeCardRoundSecond{
+background: rgba(184, 128, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  margin-right: 13vw;
+  margin-top: -16vw;
+  position: relative;
+  z-index: 1; 
+ width: 180px;
+height: 151px;
+  margin-top: -12.5vw;
+  margin-left: 6vw;
+}
+.codeCardRoundThird{
+   width: 210px;
+height: 180px;
+background: rgba(128, 171, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  margin-right: -4vw;
+  margin-top: -7vw;
+  position: relative;
+  z-index: 1; 
+} 
+.codeCard{
+height: 150px;
+}
+.codeCardValue{
+  width: 100%;
+  height: 100%;
+}
+.resertpasswordContainer{
+  display: flex;
+  flex-direction: column;
+   position: relative;
+  z-index: 2;
+  border-radius: 16px; 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  width: 530px;
+height: 521px; 
+}
+ .resertpasswordRoundFirst{
+   background: rgba(255, 128, 173, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  width: 240px;
+height: 209px;
+left: -14vw;
+top: -6vw;
+} 
+.resertpasswordRoundSecond{
+  background: rgba(184, 128, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  margin-right: 13vw;
+  margin-top: -16vw;
+  position: relative;
+  z-index: 1; 
+ width: 180px;
+height: 151px;
+top: -2.5vw;
+left: 3vw;
+}
+.resertpasswordRoundThird{
+    width: 222px;
+height: 180px;
+background: rgba(128, 171, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1; 
+  right: -13vw;
+  top: -9.5vw;
+}
+.resertpassword{
+  height:150px ;
+}
+.schAdminSignUpContainer{
+  width: 530px;
+height: 626px;
+ display: flex;
+  flex-direction: column;
+   position: relative;
+  z-index: 2;
+  border-radius: 16px; 
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.schAdminSignUpRoundFirst{
+  width: 244px;
+height: 209.08px;
+background: rgba(255, 128, 173, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  left: -13.5vw;
+  top: -5.6vw;
+}
+.schAdminSignUpRoundSecond{
+  width: 181.01px;
+height: 151.08px;
+  background: rgba(184, 128, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  margin-right: 13vw;
+  margin-top: -16vw;
+  position: relative;
+  z-index: 1; 
+  left: 2vw;
+  top: -2vw;
+}
+.schAdminSignUpRoundThird{
+  width: 222px;
+height: 182.85px;
+background: rgba(128, 171, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1; 
+  right: -13vw;
+  top: -9vw;
+}
+.schAdminSignUp{
+  height: 150px;
+}
+.schoolAdminSuccessfullyContainer{
+  width: 530px;
+height: 535px;
+border-radius: 16px;
+display: flex;
+  flex-direction: column;
+   position: relative;
+  z-index: 2;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.schoolAdminSuccessfullyRound1{
+ background: rgba(255, 128, 173, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  width: 244px;
+height: 209.08px; 
+left: -13vw;
+top: -5.6vw;
+}
+.schoolAdminSuccessfullyRound2{
+  width: 181.01px;
+height: 151.08px;
+  background: rgba(184, 128, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  margin-right: 13vw;
+  margin-top: -16vw;
+  position: relative;
+  z-index: 1; 
+  left: 3vw;
+  top: -2vw;
+}
+.schoolAdminSuccessfullyRound3{
+  background: rgba(128, 171, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1; 
+  width: 222px;
+height: 182.85px;
+right: -13vw;
+top: -9vw;
+}
+.schoolAdminSuccessfully{
+  height: 190px;
+}
+@media (max-width:1281px) {
+.resertpasswordRoundThird{
+  top: -14vw;
+  right: -16vw;
+}
+.resertpasswordRoundFirst{
+  top: -6vw;
+  left: -17vw;
+}.resertpasswordRoundSecond{
+  top: -5vw;
+  left: -0vw;
+}
+}
+@media (max-width:1025px) {
+  .resertpasswordContainer{
+    width: 500px;
+    height: 470px;
+  }
+  .resertpasswordRoundFirst{
+    width: 200px;
+    height: 190px;
+    left: -19vw;
+    top: -8vw;
+  }
+.resertpasswordRoundSecond{
+  width: 170px;
+  height: 140px;
+left: 1vw;
+top: -9vw;
+}
+.resertpasswordRoundThird{
+  right: -18vw;
+  top: -18vw;
+width: 190px;
+height: 160px;
+}
+}
+@media (max-width:913px) {
+  .resertpasswordContainer{
+    width: 50 0px;
+    height: 470px;
+  }
+  .resertpasswordRoundFirst{
+    width: 200px;
+    height: 190px;
+    left: -21vw;
+    top: -9vw;
+  }
+.resertpasswordRoundSecond{
+  width: 170px;
+  height: 140px;
+left: 2vw;
+top: -12vw;
+}
+.resertpasswordRoundThird{
+  right: -21vw;
+  top: -22vw;
+width: 190px;
+height: 160px;
+}
+}
+@media (max-width:854px) {
+  .resertpasswordContainer{
+    width: 500px;
+    height: 470px;
+  }
+  .resertpasswordRoundFirst{
+    width: 200px;
+    height: 190px;
+    left: -22vw;
+    top: -9.5vw;
+  }
+.resertpasswordRoundSecond{
+  width: 170px;
+  height: 140px;
+  left: 2vw;
+  top: -13vw;
+}
+.resertpasswordRoundThird{
+  right: -22.5vw;
+  top: -24.5vw;
+width: 190px;
+height: 160px;
+}
+}
+@media (max-width:821px) {
+  .resertpasswordContainer{
+    width: 500px;
+    height: 470px;
+  }
+  .resertpasswordRoundFirst{
+    width: 200px;
+    height: 190px;
+    left: -23vw;
+  }
+.resertpasswordRoundSecond{
+  width: 170px;
+  height: 140px;
+top: -15vw;
+}
+.resertpasswordRoundThird{
+  top: -26.6vw;
+  right: -23vw;
+width: 190px;
+height: 160px;
+}
+}
+@media (max-width:769px) {
+    .resertpasswordRoundFirst{
+    top: -11vw;
+    left: -25vw;
+    }
+.resertpasswordRoundSecond{
+top: -17vw;
+}
+.resertpasswordRoundThird{
+top: -31vw;
+right: -25vw;
+}
+}
+@media (max-width:541px) {
+  .resertpassword{
+    height: 130px;
+  }
+  .resertpasswordContainer{
+    width: 388px;
+height: 529px;
+border-radius: 16px; 
+  }
+  .resertpasswordRoundFirst{
+    width: 145.53px;
+height: 170.34px;
+left: -29vw;
+top: -14vw;
+  }
+  .resertpasswordRoundSecond{
+    width: 110.83px;
+height: 126.36px;
+left: -2vw;
+top: -28vw;
+  }
+  .resertpasswordRoundThird{
+    width: 162.52px;
+height: 154.98px;
+top: -44vw;
+right: -26vw;
+  }
+}
+@media (max-width:431px) {
+  .resertpasswordRoundFirst{
+  left: -37vw;
+  top: -19vw;
+  }
+  .resertpasswordRoundSecond{
+  top: -40vw;
+  left: -5vw;
+  }
+  .resertpasswordRoundThird{
+    right: -34vw;
+    top:-59vw;
+  }
+}
+@media (max-width:415px) {
+  .resertpasswordContainer{
+    width: 378px;
+  }
+  .resertpasswordRoundFirst{
+  top: -20vw;
+  left: -39vw;
+  }
+  .resertpasswordRoundSecond{
+  top: -42vw;
+  left: -6vw;
+  }
+  .resertpasswordRoundThird{
+ top: -62vw;
+ right: -34vw;
+  }
+}
+@media (max-width:391px) {
+  .resertpasswordRoundFirst{
+  left: -41vw;
+  }
+  .resertpasswordRoundSecond{
+    top: -45vw;
+  }
+  .resertpasswordRoundThird{
+  top: -69vw;
+  right: -36vw;
+  }
+}
+@media (max-width:376px) {
+  .resertpasswordContainer{
+    width: 320px;
+    height: 500px;
+  }
+  .resertpasswordRoundFirst{
+  left: -35vw;
+  top: -24vw;
+  }
+  .resertpasswordRoundSecond{
+  left: -2vw;
+  top: -45vw;
+  width: 100px;
+  height: 110px;
+  }
+  .resertpasswordRoundThird{
+  width: 150px;
+  height: 140px;
+  right: -31vw;
+  top: -67vw;
+  }
+}
+@media (max-width:361px) {
+  .resertpasswordRoundFirst{
+  left: -37vw;
+  }
+  .resertpasswordRoundSecond{
+  top: -47vw;
+  }
+  .resertpasswordRoundThird{
+  right: -32vw;
+  }
+}
+@media (max-width:1281px) {
+  .schAdminSignUpRoundFirst{
+    width: 200px;
+  height: 195px;
+    left: -16vw;
+    top: -7vw;
+  }
+  .schAdminSignUpRoundSecond{
+    left: 3vw;
+    top: -5.6vw;
+  }
+  .schAdminSignUpRoundThird{
+    top: -14vw;
+    right: -16vw;
+     width: 200px;
+  height: 160px;
+  }
+}
+@media (max-width:1025px) {
+  .schAdminSignUpContainer{
+    width: 480px;
+    height: 530px;
+  }
+  .schAdminSignUpRoundFirst{
+  top: -8vw;
+  left: -17vw;
+  }
+  .schAdminSignUpRoundSecond{
+  left: 3vw;
+  top: -10.5vw;
+  }
+  .schAdminSignUpRoundThird{
+    top: -22vw;
+    right: -18vw;
+  }
+}
+@media (max-width:913px) {
+  .schAdminSignUpRoundFirst{
+  top: -9.4vw;
+  left: -20vw;
+  }
+  .schAdminSignUpRoundSecond{
+  left: 3vw;
+  top: -14vw;
+  }
+  .schAdminSignUpRoundThird{
+  right: -20vw;
+  top: -26vw;
+  }
+}
+@media (max-width:854px) {
+  .schAdminSignUpRoundFirst{
+  width: 200px;
+  height: 195px;
+  left: -21vw;
+  top: -11vw;
+  }
+  .schAdminSignUpRoundSecond{
+  width: 170px;
+  height: 140px;
+  top: -14vw;
+  left: 1vw;
+  }
+  .schAdminSignUpRoundThird{
+  width: 200px;
+  height: 160px;
+  right: -22vw;
+  top: -26vw;
+  }
+}
+@media (max-width:821px) {
+  .schAdminSignUpRoundFirst{
+  left: -24vw;
+  top: -11vw;
+  }
+  .schAdminSignUpRoundSecond{
+  top: -16vw;
+  }
+  .schAdminSignUpRoundThird{
+  top: -28vw;
+  right: -22vw;
+  }
+}
+@media (max-width:769px) {
+  .schAdminSignUpRoundFirst{
+  top: -12vw;
+  left: -23.5vw;
+  }
+  .schAdminSignUpRoundSecond{
+  top: -17.7vw;
+  }
+  .schAdminSignUpRoundThird{
+  top: -31vw;
+  }
+}
+@media (max-width:541px) {
+  .schAdminSignUpContainer{
+    width: 388px;
+height: 626px;
+display: flex;
+  flex-direction: column;
+   position: relative;
+  z-index: 2;
+  border-radius: 16px; 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  }
+  .schAdminSignUpRoundFirst{
+  width: 145.53px;
+height: 170.34px;
+background: rgba(255, 128, 173, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  left: -30vw;
+  top: -14vw;
+  }
+  .schAdminSignUpRoundSecond{
+  width: 110.83px;
+height: 126.36px;
+background: rgba(184, 128, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  margin-right: 13vw;
+  margin-top: -16vw;
+  position: relative;
+  z-index: 1; 
+  left: -4vw;
+  top: -28vw;
+  }
+.schAdminSignUpRoundThird{
+width: 162.52px;
+height: 154.98px;
+background: rgba(128, 171, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  z-index: 1; 
+  top: -44vw;
+  right: -26vw;
+}
+}
+@media (max-width:431px) {
+  .schAdminSignUpRoundFirst{
+  left: -38vw;
+  top: -18vw;
+  }
+  .schAdminSignUpRoundSecond{
+  top: -39vw;
+  left: -6vw;
+  }
+.schAdminSignUpRoundThird{
+right: -33vw;
+top:-59.5vw;
+}
+}
+@media (max-width:415px) {
+  .schAdminSignUpRoundFirst{
+  top: -20vw;
+  left: -40vw;
+  }
+  .schAdminSignUpRoundSecond{
+  top: -42vw;
+  }
+.schAdminSignUpRoundThird{
+top: -63vw;
+right: -34vw;
+}
+}
+@media (max-width:413px) {
+  .schAdminSignUpContainer{
+    width: 350px;
+    height: 600px;
+  }
+  .schAdminSignUpRoundFirst{
+  left: -36vw;
+  }
+  .schAdminSignUpRoundSecond{
+  left: -2vw;
+  top: -43vw;
+  }
+.schAdminSignUpRoundThird{
+  width: 150px;
+  height: 140px;
+right: -31vw;
+top: -62vw;
+}
+}
+@media (max-width:391px) {
+  .schAdminSignUpRoundFirst{
+  left: -38.5vw;
+  } 
+  .schAdminSignUpRoundSecond{
+  top: -45vw;
+  left: -4vw;
+  }
+.schAdminSignUpRoundThird{
+top: -66.5vw;
+right: -33vw;
+}
+}
+@media (max-width:376px) {
+  .schAdminSignUpRoundFirst{
+  left: -40vw;
+  }
+  .schAdminSignUpRoundSecond{
+  top: -47.5vw;
+  }
+.schAdminSignUpRoundThird{
+top: -69vw;
+right: -33vw;
+}
+}
+@media (max-width:361px) {
+  .schAdminSignUpContainer{
+    width: 330px;
+    height: 570px;
+  }
+  .schAdminSignUpRoundFirst{
+  top: -25vw;
+  }
+  .schAdminSignUpRoundSecond{
+    top: -47vw;
+  width: 100px;
+  height: 110px;
+  }
+.schAdminSignUpRoundThird{
+  top: -68vw;
+  right: -34vw;
+width: 135px;
+height: 125px;
+}
+}
+@media (max-width:1281px) {
+  .schoolAdminSuccessfullyRound1{
+    left: -15vw;
+top: -6.5vw;
+  }
+  .schoolAdminSuccessfullyRound2{
+left: 3vw;
+top: -5.5vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+top: -14vw;
+right: -15.6vw;
+  }
+}
+@media (max-width:1025px) {
+  .schoolAdminSuccessfullyRound1{
+  width: 220px;
+  height: 190px;
+  left: -20vw;
+  top: -7.6vw;
+  }
+  .schoolAdminSuccessfullyRound2{
+  width: 170px;
+  height: 140px;
+  left: 1vw;
+  top: -9vw;
+}
+  .schoolAdminSuccessfullyRound3{
+  width: 200px;
+height: 170px;
+top: -19vw;
+right: -19.5vw;
+}
+}
+@media (max-width:913px) {
+  .schoolAdminSuccessfullyRound1{
+  left: -21vw;
+  top: -8vw;
+  }
+  .schoolAdminSuccessfullyRound2{
+  top: -11vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+  top: -23vw;
+  right: -22vw;
+  }
+}
+@media (max-width:854px) {
+  .schoolAdminSuccessfullyRound1{
+  left: -23vw;
+  top: -9vw;
+  }
+  .schoolAdminSuccessfullyRound2{
+  left: -1vw;
+  top: -13vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+  top: -26vw;
+  right: -23.5vw;
+  }
+}
+@media (max-width:821px) {
+  .schoolAdminSuccessfullyRound1{
+  top: -9vw;
+  left: -25vw;
+  }
+  .schoolAdminSuccessfullyRound2{
+  top: -14.5vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+  top: -28vw;
+  right: -24vw;
+  }
+}
+@media (max-width:769px) {
+ .schoolAdminSuccessfullyRound1{
+  top: -9.2vw;
+  left: -26vw;
+  }
+  .schoolAdminSuccessfullyRound2{
+  top: -16.5vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+  top: -31vw;
+  right: -26vw;
+  } 
+}
+@media (max-width:541px) {
+  .schoolAdminSuccessfullyContainer{
+    width: 388px;
+height: 491px;
+  }
+ .schoolAdminSuccessfullyRound1{
+ width: 145.53px;
+height: 170.34px;
+top: -15vw;
+left: -30vw;
+}
+  .schoolAdminSuccessfullyRound2{
+  width: 110.83px;
+height: 126.36px;
+left: -4vw;
+top: -29vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+  width: 162.52px;
+height: 154.98px;
+top: -46vw;
+right: -26.5vw;
+  }
+  .schoolAdminSuccessfully{
+    height: 170px;
+  }
+}
+
+@media (max-width:431px) {
+ .schoolAdminSuccessfullyRound1{
+ left: -39vw;
+ top: -19vw;
+}
+  .schoolAdminSuccessfullyRound2{
+  left: -7vw;
+  top: -39.5vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+  top: -60vw;
+  right: -33vw;
+  }
+}
+
+@media (max-width:415px) {
+  .schoolAdminSuccessfullyRound1{
+top: -20vw;
+left: -41vw;
+}
+  .schoolAdminSuccessfullyRound2{
+  top: -43vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+  top: -63vw;
+  right: -34vw;
+  }
+}
+@media (max-width:413px) {
+ .schoolAdminSuccessfullyRound1{
+ left: -39vw;
+}
+  .schoolAdminSuccessfullyRound3{
+  right: -34vw;
+  top: -64vw;
+  }
+  .schoolAdminSuccessfullyContainer{
+    width: 375px;
+  } 
+}
+@media (max-width:391px) {
+ .schoolAdminSuccessfullyRound1{
+ width: 135.53px;
+height: 160.34px;
+}
+  .schoolAdminSuccessfullyRound2{
+  width: 100.83px;
+height: 116.36px;
+top: -42vw;
+left: -7vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+  width: 152.52px;
+height: 134.98px;
+top: -60vw;
+right: -35vw;
+  }
+  .schoolAdminSuccessfullyContainer{
+    width: 360px;
+  } 
+}
+@media (max-width:376px) {
+  .schoolAdminSuccessfullyContainer{
+    width: 340px;
+  } 
+ .schoolAdminSuccessfullyRound1{
+top: -21.5vw;
+}
+  .schoolAdminSuccessfullyRound2{
+top: -43.9vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+  width: 135px;
+  height: 125px;
+  right: -33vw;
+  top: -62vw;
+  }
+}
+@media (max-width:361px) {
+   .schoolAdminSuccessfullyRound1{
+left: -41vw;
+  }
+  .schoolAdminSuccessfullyRound2{
+top: -46vw;
+  }
+  .schoolAdminSuccessfullyRound3{
+  top: -64.5vw;
+  right: -35vw;
+  }
+}
+@media (max-width:1281px){
+.divContainer{
+top: 16px;
+border-radius: 16px;
+}
+.roundFirst{
+  margin-top: -6vw;
+  margin-left: -6vw;
+}
+.roundSecond{
+  margin-top: -5.4vw;
+  margin-left: -6vw;
+}
+}
+@media (max-width:1025px) {
+  .divContainer{
+    width: 388px;
+height: 491px;
+top: 166px;
+left: 21px;
+border-radius: 16px;
+  }
+  .roundFirst{
+margin-top: -4vw;
+width: 145px;
+height: 150px;
+left: 2vw;
+}
+.roundSecond{
+  width: 110px;
+height: 120px;
+}
+.roundThird{
+  width: 162px;
+height: 154px;
+}
+}
+@media (max-width:913px) {
+  .cardContainer{
+    width: 460px;
+  }
+  .roundFirst{
+  top: -2vw;
+  left: 0.6vw;
+  }
+  .roundSecond{
+    right: 2.5vw;
+    margin-top: -7vw;
+  }
+.roundThird{
+  right: 8vw;
+}
+}
+@media (max-width:854px) {
+  .roundFirst{
+width: 150px;
+height: 140px;
+}
+.roundSecond{
+top: -1vw;
+margin-left: -5vw;
+width: 110.83px;
+height: 126.36px;
+}
+.roundThird{
+  width: 150px;
+height: 130px;
+margin-right: -4vw;
+margin-top: -2vw;
+}
+}
+@media (max-width:821px) {
+.roundSecond{
+  margin-left: -11vw;
+top: -2vw;
+}
+.roundFirst{
+  top: -2vw;
+  left: -1vw;
+}
+.roundThird{
+  margin-right: -5vw;
+  margin-top: -3vw;
+}
+}
+@media (max-width:769px) { 
+  .roundSecond{
+    top: -2vw;
+    right: 1vw;
+  }
+  .roundThird{
+    right: 10vw;
+  }
+  .roundFirst{
+    left:-0.5vw;
+    top: -2vw;
+  }
+} 
+@media (max-width:541px) {
+  .divContainer{
+    width: 388px;
+height: 520px;
+  }
+   .roundFirst{
+margin: 0 0 0 0 ;
+left: -9vw;
+top: -9vw;
+}
+.roundSecond{
+  width: 109px;
+height: 120px;
+margin: 0 0 0 0;
+left: -12vw;  
+top: -11.5vw;
+}
+.roundThird{
+  width: 142px;
+height: 130px;
+margin: 0 0 0 0 ;
+right: -1.5vw;
+margin-top: -2vw;
+}
+}
+@media (max-width:431px) {
+  .divContainer{
+    width: 388px;
+height: 520px;
+  }
+  .cardContainer{
+    height: 150px;
+  }
+  .roundFirst{
+    top: -10vw;
+    left: -10vw;
+    width: 145px;
+  }
+  .roundSecond{
+   top: -14vw;
+   left: -15vw;
+  }
+  .roundThird{
+    margin-top: -4vw;
+    right: -3vw;
+  }
+}
+@media (max-width:415px) {
+  .cardContainer{
+    margin-left: -10px;
+  }
+  .roundThird{
+    right:-6vw;
+  }
+  .roundFirst{
+    left: -7vw;
+  }
+}
+@media (max-width:413px) {
+  .cardContainer{
+    height: 150px;
+  }
+  .divContainer{
+margin-right: 30px;
+  }
+  .roundFirst{
+    width: 165.53px;
+height: 170px;
+   left: -10vw;
+    top: -19vw;
+  }
+  .roundSecond{
+    left: -15vw;
+    width: 110.83px;
+height: 127px;
+margin: 0 0 0 0;
+    margin-top: -5vw;
+  }
+  .roundThird{
+    width: 170.52px;
+height: 162px;
+  margin-top: -30px;
+  left: -4vw;
+  }
+}
+@media (max-width:391px) {
+  .roundFirst{
+    left: -9vw;
+    top: -18vw;
+  }
+}
+@media (max-width:376px) {
+  .divContainer{
+    width: 380px;
+height: 500px;
+  }
+  .cardContainer{
+    height: 120px;
+  }
+  .roundFirst{
+    margin-top: -2vw;
+  }
+  .roundThird{
+    height: 130px;
+    width: 130px;
+inset: 0 500px 0 0;
+  }
+}
+@media (max-width:361px) {
+  .roundFirst{
+height: 150px;
+    top: -12vw;
+    left: -11vw;
+  }
+  .roundSecond{
+height: 110.36px;
+top: -10vw;
+left: -17vw;
+  }
+  .roundThird{
+    width: 170px;
+height: 145px;
+inset: 0 0 0 -4.5vw;
+  }
+}
+@media (max-width:1281px) {
+  
+ .signInRoundFirst{
+  width: 200px;
+height: 195px;
+right: 16vw;
+margin-top: -6.6vw;
+}
+.signInRoundSecond{
+ width: 170px;
+height: 150px;
+  margin-top: -14vw;  
+  margin-left: 8vw;
+}
+.signInCardRoundThird{
+margin-left: 28.6vw;
+margin-top: -8vw;
+width: 222px;
+height: 182px;
+}  
+}
+@media (max-width:1025px) {
+  .signInCard{
+height: 200px;
+}
+.signInCardContiner {
+  width:500px;
+  height: 530px;
+  /* display: flex; */
+  /* align-items: flex-start; */
+}
+ .signInRoundFirst{
+top: -1.5vw;
+right: 18vw;
+}
+.signInRoundSecond{
+  left: 4vw;
+  top: -5.5vw;
+  width: 160px;
+}
+.signInCardRoundThird{
+width: 200px;
+margin-left: 34vw;
+top: -8vw;
+}
+}
+@media (max-width:913px) {
+.signInRoundSecond{
+  left: 4vw;
+  top: -9vw;
+}
+.signInCardContiner{
+  border-radius: 16px;
+}
+.signInCard{
+height: 200px;
+}
+.signInCardRoundThird{
+  left: 3vw;
+  top: -13vw;
+}
+.signInRoundFirst{
+  top: -2vw;
+  left: -20vw;
+}
+}
+@media (max-width:854px) {
+   .signInRoundFirst{
+    top: -1.7vw;
+    left: -24.8vw;
+  }
+  .signInRoundSecond{
+    top: -11vw;
+  }
+  .signInCardRoundThird{
+ left: 7vw;
+ top: -15vw;
+  }
+}
+ @media (max-width:821px) {
+  .signInRoundFirst{
+  top: -3vw;
+  left: -23vw;
+  } 
+   .signInRoundSecond{
+  top: -12vw;
+  }
+  .signInCardRoundThird{
+     left: 7vw;
+  top: -16vw;
+  }
+} 
+@media (max-width:769px) {
+  .signInCardContiner{
+ width: 500px;
+height: 560px;
+border-radius: 16px;
+  }
+  .signInCard{
+    height: 200px;
+  }
+  .signInRoundFirst{
+    width: 244px;
+height: 209.08px;
+top: -4vw;
+left: -24.9vw;
+  }
+  .signInRoundSecond{
+    width: 181.01px;
+height: 151.08px;
+top: -17vw;
+left: 7vw;
+  }
+  .signInCardRoundThird{
+    width: 222px;
+height: 182.85px;
+top: -24vw;
+left: 9vw;
+  }
+}
+ @media (max-width: 541px) {
+  .signInCardContiner{
+    width: 388px;
+height: 550px;
+  }
+  .signInRoundFirst{
+    left: -32vw;
+       top: -32px; 
+       width: 145.53px;
+height: 170.34px;
+  }
+  .signInRoundSecond{
+    width: 110.83px;
+height: 126.36px;
+    left: 7%;
+    top: -24vw;
+  }
+   .signInCardRoundThird{
+    width: 162.52px;
+height: 154.98px;
+    margin-top: -16vw;
+    left: 12vw;
+   }
+   .signInCard{
+    height: 200px;
+   }
+} 
+@media (max-width:431px) {
+  .signInRoundFirst{
+    top: -12vw;
+    left: -38vw;
+  }
+  .signInRoundSecond{
+    top: -36vw;
+  }
+  .signInCardRoundThird{
+    margin-top: -40vw;
+    left: 27vw;
+  } 
+}
+@media (max-width:415px) {
+  .signInRoundSecond{
+    left: 10vw;
+    top: -35.7vw;
+  }
+  .signInCardRoundThird{
+    left: 30vw;
+  }
+}
+@media (max-width:413px) {
+  .signInCardContiner{ 
+    width: 350px;
+height: 550px;
+  }
+  .signInRoundFirst{
+    width: 145.53px;
+height: 150px;
+top: -7vw;
+left: -35vw;
+  }
+  .signInRoundSecond{
+    width: 110.83px;
+height: 126px;
+left: 8vw;
+top: -34vw;
+  }
+  .signInCardRoundThird{
+    width: 162.52px;
+height: 154.98px;
+top: -14vw;
+left: 19vw;
+  }
+} 
+@media (max-width:391px) {
+  .signInRoundFirst{
+    width: 162.52px;
+height: 154.98px;
+  }
+.signInCardRoundThird{
+  left: 22vw;
+}
+}
+@media (max-width:376px) {
+  .signInRoundSecond{
+    top: -38vw;
+    left: 13vw;
+  }
+  .signInRoundFirst{
+    margin-top: -10vw;
+    left: -40vw;
+  }
+  .signInCardRoundThird{
+top: -16vw;
+left: 24vw;
+width: 150px;
+height: 140px;
+}
+}
+ @media (max-width:361px) {
+  .signInCardRoundThird{
+    top: -17vw;
+left: 30.5vw;
+  }
+  .signInRoundSecond{
+    top: -37vw;
+  }
+} 
+@media (max-width:1281px) {
+  .codeRoundFirst{
+    left: -17vw;
+    top: -1vw;
+  }
+  .codeCardRoundSecond{
+    top: -3.5vw;
+  }
+  .codeCardRoundThird{
+    right: -3vw;
+    top: -4vw;
+  }
+}
+@media (max-width:1025px) {
+  .codeRoundFirst{
+  left: -19vw;
+  top: -3vw;
+  }
+  .codeCardRoundSecond{
+    top: -9vw;
+  }
+  .codeCardRoundThird{
+    top: -12vw;
+  right: -7vw;
+  }
+}
+@media (max-width:913px) {
+  .codeRoundFirst{
+    left: -23vw;
+  }
+  .codeCardRoundSecond{
+    left: -2vw;
+    top: -12vw;
+  }
+  .codeCardRoundThird{
+    right: -10vw;
+    top: -17vw;
+  }
+}
+@media (max-width:854px) {
+  .codeRoundFirst{
+  top: -4vw;
+  left: -23vw;
+  }
+  .codeCardRoundSecond{
+  top: -14vw;
+  }
+  .codeCardRoundThird{
+    right: -11vw;
+    top: -19vw;
+  }
+}
+@media (max-width:821px) {
+  .codeRoundFirst{
+  top: -4vw;
+  left: -24vw;
+  }
+  .codeCardRoundSecond{
+  top: -15vw;
+  }
+  .codeCardRoundThird{
+  right: -13vw;
+  top: -20vw;
+  }
+}
+@media (max-width:769px) {
+  .codeRoundFirst{
+  top: -4vw;
+  left: -25.5vw;
+  }
+  .codeCardRoundSecond{
+  top: -18vw;
+  }
+  .codeCardRoundThird{
+  right: -14vw;
+  top: -25vw;
+  }
+}
+@media (max-width:541px) {
+  .codeCardContainer{
+    width: 388px;
+height: 626px;
+border-radius: 16px;
+  }
+  .codeRoundFirst{
+  width: 145.53px;
+height: 170.34px;
+top: -9vw;
+left: -29vw;
+  }
+  .codeCardRoundSecond{
+width: 110.83px;
+height: 126.36px;
+top: -26vw;
+left: -6vw;
+}
+  .codeCardRoundThird{
+width: 162.52px;
+height: 154.98px;
+top: -34vw;
+right: -17vw;
+}
+}
+@media (max-width:431px) {
+  .codeRoundFirst{
+  left: -36vw;
+  top: -11vw;
+  }
+  .codeCardRoundSecond{
+  top: -38vw;
+  left: -8vw;
+  }
+  .codeCardRoundThird{
+  top:-49vw;
+  right: -25vw;
+  }
+}
+@media (max-width:415px) {
+  .codeRoundFirst{
+  top: -15vw;
+  left: -39vw;
+  }
+  .codeCardRoundSecond{
+  top: -40vw;
+  }
+  .codeCardRoundThird{
+  top: -52vw;
+  right: -25vw;
+  }
+}
+@media (max-width:391px) {
+  .codeCardContainer{
+    width: 350px;
+    height: 600px;
+  }
+  .codeRoundFirst{
+  left: -40vw;
+  }
+  .codeCardRoundSecond{
+  left: -10vw;
+  top: -44vw;
+  }
+  .codeCardRoundThird{
+  top: -56vw;
+  right: -25vw;
+  }
+}
+@media (max-width:376px) {
+  .codeCardContainer{
+    width: 350px;
+    height: 600px;
+  }
+  .codeRoundFirst{
+  left: -39vw;
+  }
+  .codeCardRoundSecond{
+  top: -47vw;
+  }
+  .codeCardRoundThird{
+  right: -27vw;
+  top: -60vw;
+  }
+}
+@media (max-width:361px) {
+  .codeCardRoundThird{
+    width: 150px;
+    height: 140px;
+    right: -27vw;
+  }
+}

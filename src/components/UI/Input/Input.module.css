@@ -17,17 +17,13 @@
     text-align: left;
     color: #575757;
 }
-@media (max-width: 550px) {
-    width: 300px;
-    height: 40px;
-    font-size: 20px;
-}
 @media (max-width: 450px) {
     display: none;
 }
 }
 .loginInput{
     width: 411px;
+    padding-right: 25px;
     border: none;
     border-bottom: 2.5px solid #0000001A;
     font-family: Inter, sans-serif;
@@ -37,7 +33,7 @@
     text-align: left;
     color: #70A1FF;
     outline: none;
-@media(max-width:450px){
+    @media(max-width:541px){
     width: 291px;
     font-size: 20px;
 }
@@ -71,9 +67,6 @@ input:valid ~ label{
     margin-top: 15px;
     margin-left: 20px;
     user-select: none;
-    @media (max-width: 550px) {
-        margin-top: 5px;
-    }
 @media (max-width: 450px) {
     position:static;
     margin: 0;
