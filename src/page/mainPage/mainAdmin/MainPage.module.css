@@ -1,0 +1,125 @@
+.backgroundImage{
+  width: 100%;
+}
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.globalImageContainer{
+  width: 100%;
+  height: 300px;
+  display: grid;
+  /* place-items: center; */
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: flex-end;
+  gap: clamp(100px, 15vw, 250px);
+  @media (max-width: 550px) {
+    gap: clamp(30px, 10vw, 100px);
+  }
+  @media (max-width: 376px) {
+    gap: 20px;
+  }
+}
+.ImageContainer{
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  @media (max-width: 550px) {
+    width: 100px;
+  }
+}
+.Image{
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  @media (max-width: 550px) {
+    width: 70px;
+    height: 70px;
+  }
+}
+.ImageContainer:nth-child(1) .Image{
+  width: 100px;
+  height: 100px;
+  padding: 0 0 0 20px;
+  @media (max-width: 550px) {
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    margin:0 0 0 20px;
+  }
+}
+.ImageText{
+  width: 100%;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 500;
+  color: rgba(0, 116, 255, 1);
+  font-size: 25px;
+  @media (max-width: 550px) {
+    font-size: 16px;
+  }
+}
+.hr{
+  width: 169px;
+  border: none;
+  border-radius: 10px;
+  height: 2px;
+  background-color: rgba(18, 18, 18, 0.8);
+  @media (max-width: 550px) {
+    width: 100px;
+  }
+}
+
+.endContainer{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+    @media (max-width: 550px) {
+    height: 430px;
+    gap: 40px;
+  }
+  @media (max-width: 376px) {
+    height: 350px;
+    gap: 30px;
+  }
+}
+.TextContainer{
+  width: 315px;
+  gap: 20px;
+  @media (max-width: 550px) {
+    width: 200px;
+  }
+}
+.TestText{
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35.16px;
+  text-align: left;
+  @media (max-width: 550px) {
+    font-size: 25px;
+  }
+
+}
+.Textp{
+  font-family: Roboto;
+font-size: 21px;
+font-weight: 500;
+line-height: 24.61px;
+text-align: left;
+color: rgba(0, 0, 0, 0.4);
+@media (max-width: 550px) {
+  font-size: 17px;
+  padding: 0 10px 0 0;
+}
+}
+.ProgressContainer{
+  margin: 10px;
+}
