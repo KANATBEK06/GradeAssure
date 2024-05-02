@@ -1,10 +1,4 @@
-import MainTeacher from './page/mainPage/mainTeacher/MainTeacher'
-
 const App = () => {
-  return (
-    <div>
-      <MainTeacher />
-    </div>
-  )
+  return <div />
 }
 export default App
