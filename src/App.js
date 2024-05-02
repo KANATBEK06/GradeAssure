@@ -1,10 +1,4 @@
-import MainPage from './page/mainPage/mainAdmin/MainPage'
-
 const App = () => {
-  return (
-    <div>
-      <MainPage />
-    </div>
-  )
+  return <div />
 }
 export default App
