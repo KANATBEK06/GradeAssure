@@ -1,5 +1,3 @@
-/* @import url('../../assets/homeIcon/background-icon.svg'); */
-
 .Container {
   display: flex;
     margin-bottom: 30px;
@@ -29,7 +27,6 @@ text-align: left;
 }
 .LeftContainer{
   width: 43%;
-  /* height: 100vh; */
   display: flex;
   position: absolute;
   inset: 150px 0 0 200px;

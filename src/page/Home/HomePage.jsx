@@ -1,5 +1,4 @@
 import React from 'react'
-// import BackgroundIcon from '../../assets/homeIcon/background-icon.svg'
 import classes from './HomePage.module.css'
 
 const HomePage = () => {
