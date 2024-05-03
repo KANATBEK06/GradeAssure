@@ -1,0 +1,155 @@
+/* @import url('../../assets/homeIcon/background-icon.svg'); */
+
+.Container {
+  display: flex;
+    margin-bottom: 30px;
+}
+.Header{
+  margin: 30px 0 0 30px;
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.HeaderText{
+  font-family: Inter;
+font-size: 23px;
+font-weight: 900;
+line-height: 27.84px;
+text-align: left;
+}
+.HeaderDescription{
+  font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+
+}
+.LeftContainer{
+  width: 43%;
+  /* height: 100vh; */
+  display: flex;
+  position: absolute;
+  inset: 150px 0 0 200px;
+  flex-direction: column;
+}
+.Title{
+  width: 300px;
+  font-family: Inter;
+font-size: 115px;
+font-weight: 700;
+line-height: 151.28px;
+text-align: left;
+inset: 150px 0 0 210px;
+z-index: 2;
+}
+.Description{
+  width: 374px;
+  font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+color: rgba(0, 0, 0, 0.4);
+}
+.StartButton{
+  width: 300px;
+height: 49px;
+border: none;
+display: grid;
+place-items: center;
+border-radius: 22px;
+background-color: rgba(128, 186, 255, 1);
+color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-size: 23px;
+font-weight: 500;
+line-height: 27.84px;
+text-align: left;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+.RightContainer{
+  width: 57%;
+  height: 100vh;
+  background-image: url('../../assets/homeIcon/background-icon.svg');
+  background-size: cover; /* Растянуть изображение на всю площадь */
+  background-position: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+@media (max-width: 1281px) {
+  .RightContainer{
+    width: 50%;
+  }
+}
+@media (max-width: 1025px) {
+  .LeftContainer{
+    inset: 100px 0 0 85px;
+    gap: 20px;
+  }
+  .Title{
+    font-size: 95px;
+line-height: 101.28px;
+  }
+  .StartButton{
+    margin: 50px 0 0 0;
+  }
+}
+@media (max-width: 913px) {
+  .Header{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0 0 0;
+  }
+  .LeftContainer{
+    width: 100%;
+    height: 100vh;
+    position:static;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    opacity: 0.9;
+    background-image: linear-gradient(0.5);
+  }
+  .Title{
+    width: 400px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .Description{
+    width: 400px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .RightContainer{
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .LeftContainer{
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .Title{
+    width: 300px;
+    font-family: Inter;
+font-size: 50px;
+font-weight: 700;
+line-height: 60.51px;
+text-align: left;
+
+  }
+  .Description{
+    width: 300px;
+    font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+
+  }
+}
